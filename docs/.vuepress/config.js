@@ -13,11 +13,26 @@ module.exports = {
         // 为以下路由添加侧边栏
         sidebar: {
             '/components/': [{
+                    title: '按鈕組件',
                     collapsable: true,
                     children: [
                         'button'
                     ]
-                }
+                },
+                {
+                    title: '响应式布局組件',
+                    collapsable: true,
+                    children: [
+                        'layout'
+                    ]
+                },
+                {
+                    title: 'container组件',
+                    collapsable: true,
+                    children: [
+                        'container'
+                    ]
+                },
             ]
         }
     }

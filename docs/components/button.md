@@ -1,12 +1,9 @@
-# Button组件
-常用的操作按钮。
-## 基础用法
-基础的按钮用法。
-
 <demo-block>
 ::: slot source
 <button-type></button-type>
 :::
+
+# type属性
 
 使用type属性来定义 Button 的样式。
 
@@ -29,12 +26,12 @@
 <button-icon></button-icon>
 :::
 
-带icon的按钮
+# 带icon的按钮
 
 ::: slot highlight
 
 ``` html
-     <dj-button :icon='icon' iconPosition="left" type="warning">默认按钮</dj-button>
+    <dj-button :icon='icon' iconPosition="left" type="warning">默认按钮</dj-button>
     <dj-button :icon='icon' iconPosition="right" type="warning">默认按钮</dj-button>
 ```
 :::
@@ -46,7 +43,7 @@
 <button-loading></button-loading>
 :::
 
-loading态的按钮
+#  loading态的按钮
 
 ::: slot highlight
 
@@ -61,7 +58,7 @@ loading态的按钮
 <button-group></button-group>
 :::
 
-按钮组
+# 按钮组
 
 ::: slot highlight
 

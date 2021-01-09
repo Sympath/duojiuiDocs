@@ -21,6 +21,7 @@ export default ({
   Vue.use(Element);
   Vue.mixin({
     mounted() {
+      window.$vm = this;
         import('duoji-ui').then(function (m) {
             Vue.use(m.default)
         })

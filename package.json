@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "core-js": "^2.6.12",
-    "duoji-ui": "^0.1.1",
+    "duoji-ui": "^0.1.3",
     "element-ui": "^2.14.1",
     "hash-sum": "^2.0.0",
     "highlight.js": "^10.4.0",
